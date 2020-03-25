@@ -24,4 +24,5 @@
 
     <color name="orange_a700">#ff6d00</color>
     <color name="ltgray">#ffe0e0e0</color>
+    <color name="dark_gray">#323232</color>
 </resources>
