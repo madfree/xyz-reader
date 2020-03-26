@@ -18,6 +18,11 @@
 <resources>
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/green_500</item>
+        <item name="colorPrimaryDark">@color/green_900</item>
+        <item name="colorAccent">@color/orange_a700</item>
+        <item name="fontFamily">@font/rosario_regular</item>
+        <item name="android:fontFamily">@font/rosario_regular</item>
 
     </style>
 
