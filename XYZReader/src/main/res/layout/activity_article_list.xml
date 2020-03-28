@@ -43,7 +43,8 @@
                 android:layout_marginRight="@dimen/list_toolbar_side_margin"
                 android:layout_gravity="bottom"
                 app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-                app:layout_collapseMode="pin">
+                app:layout_collapseMode="pin"
+                android:elevation="4dp">
 
             <ImageView
                 android:layout_width="wrap_content"
