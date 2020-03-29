@@ -54,11 +54,13 @@
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/content_body_top_margin"
                 android:layout_gravity="center_horizontal"
                 android:maxWidth="@dimen/detail_card_max_width"
                 android:background="#fff"
                 android:elevation="2dp"
                 android:layout_below="@id/photo_container"
+
                 android:layout_centerHorizontal="true">
 
                 <LinearLayout
