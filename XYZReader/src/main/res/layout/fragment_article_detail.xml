@@ -18,13 +18,13 @@
             <FrameLayout
                 android:id="@+id/photo_container"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/detail_photo_height"
                 android:background="@color/photo_placeholder">
                 <!--suppress AndroidLintContentDescription -->
                 <ImageView
                     android:id="@+id/photo"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:scaleType="centerCrop"
                     />
 
@@ -46,6 +46,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignBottom="@id/photo_container"
                 android:elevation="@dimen/fab_elevation"
+                app:pressedTranslationZ="12dp"
                 app:srcCompat="@drawable/ic_share"
                 android:contentDescription="@string/action_share"/>
 
@@ -57,7 +58,8 @@
                 android:maxWidth="@dimen/detail_card_max_width"
                 android:background="#fff"
                 android:elevation="2dp"
-                android:layout_below="@id/photo_container">
+                android:layout_below="@id/photo_container"
+                android:layout_centerHorizontal="true">
 
                 <LinearLayout
                     android:id="@+id/meta_bar"
