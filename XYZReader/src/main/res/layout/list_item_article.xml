@@ -22,7 +22,8 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:scaleType="centerCrop"
-            android:background="@color/photo_placeholder" />
+            android:background="@color/photo_placeholder"
+            android:transitionName="@string/transition_share"/>
 
         <TextView
             android:id="@+id/article_title"
