@@ -18,7 +18,6 @@ import java.util.GregorianCalendar;
 
 import android.os.Bundle;
 import android.support.v4.app.ShareCompat;
-import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.graphics.Palette;
 import android.text.Html;
 import android.text.format.DateUtils;
@@ -34,8 +33,6 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageLoader;
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
-
-import static java.lang.String.valueOf;
 
 /**
  * A fragment representing a single Article detail screen. This fragment is
