@@ -16,12 +16,11 @@ All features implemented according to the [material design](https://material.io/
 
 ### Showcase
 
-<img src=/screenshots/phone.gif width="400">
+<img src=/screenshots/phone.gif width="200">
 
 #### Tablet layout
 
-<img src=/screenshots/tablet_1.png width="400">
-<img src=/screenshots/tablet_2.png width="400">
+<img src=/screenshots/tablet_1.png width="400"> <img src=/screenshots/tablet_2.png width="400">
 
 ## Getting Started / Installation 
 
